@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_upload_a_file">
+    <title>How to upload a file?</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <prereq id="prereq_c4b_myp_cpb">
+            <p>1. Signup for a GitHub account.</p>
+            <p>2. Download and Install Git on your computer.</p>
+        </prereq>
+        <context>
+            <p>If you want to work on your project on your local computer, you need to have Git
+                installed. GitHub won’t work on your local computer if you don’t install Git. </p>
+            <p>Perform these steps to upload a file from a project folder on your computer to your
+                GitHub repository. These steps need to be performed in the Git Bash or Windows Cmd
+                window to <b>add</b> a file in your GitHub repository.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Setup gitHub to be used with Git on your computer.</cmd>
+            </step>
+            <step>
+                <cmd>Create your local Git project directory/folder on your computer.</cmd>
+            </step>
+            <step>
+                <cmd>Create your online repository using the + sign on the top left corner of your
+                    GitHub account page on the website.</cmd>
+            </step>
+            <step>
+                <cmd>Use <b><codeph>git init </codeph></b> command to initialize a new Git
+                    repository. Until you run this command inside a repository or directory, it’s
+                    just a regular folder. Only after you input this does it accept further Git
+                    commands.</cmd>
+            </step>
+            <step>
+                <cmd>Use <b><codeph>git add </codeph></b> command to bring new files to Git’s
+                    attention. After you add files, they’re included in Git’s “snapshots” of the
+                    repository.</cmd>
+            </step>
+            <step>
+                <cmd>Use <b><codeph>git commit </codeph></b> after you make any sort of change, to
+                    take a “snapshot” of the repository.</cmd>
+                <info><p> Usually it goes </p><codeph>git commit -m “Message here.”</codeph> The
+                        <codeph>-m</codeph> indicates that the following section of the command
+                    should be read as a message.</info>
+            </step>
+            <step>
+                <cmd>Use <b><codeph>git push </codeph></b> command to push the changes you made on
+                    your local computer to GitHub.</cmd>
+            </step>
+        </steps>
+        <result id="result_u4r_qcq_cpb">Your local file is uploaded on your repository on
+            GitHub.com. Your commits will be visible online on GitHub as well,</result>
+    </taskbody>
+</task>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_github">
+    <title>What is GitHub?</title>
+    <shortdesc>GitHub is a website which provides internet hosting for software development and
+        version control using Git.</shortdesc>
+    <conbody>
+        <p>Projects on GitHub.com can be accessed and managed using the standard Git command-line
+            interface; all standard Git commands work with it. GitHub.com also allows users to
+            browse public repositories on the site. The site provides social networking-like
+            functions such as feeds, followers, wikis and a social network graph to display how
+            developers work on their versions ("forks") of a repository and what fork (and branch
+            within that fork) is newest.</p>
+        <p>Anyone can browse and download public repositories but only registered users can
+            contribute content to repositories. With a registered user account, users are able to
+            have discussions, manage repositories, submit contributions to others' repositories, and
+            review changes to code. GitHub.com began offering unlimited private repositories at no
+            cost in January 2019 (limited to three contributors per project). Previously, only
+            public repositories were free. On April 14, 2020, GitHub made "all of the core GitHub
+            features" free for everyone, including "private repositories with unlimited
+            collaborators".</p>
+        <p>Source: <xref href="https://en.wikipedia.org/wiki/GitHub" format="html" scope="external"
+            /></p>
+    </conbody>
+</concept>

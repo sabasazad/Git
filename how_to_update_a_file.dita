@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_update_a_file">
+    <title>How to update a file?</title>
+    <shortdesc>You can update a file on GitHub after making changes to the file on your local
+        project folder on your computer.</shortdesc>
+    <taskbody>
+        <context>You will make the changes and save the file in your local project folder.<p>Perform
+                these steps in Git Bash or Windows Cmd window to update a file in your GitHub
+                repository.</p></context>
+        <steps>
+            <step>
+                <cmd>Use <b><codeph>git status </codeph></b> command to check the status of your
+                    repository. See which files are inside it, which changes still need to be
+                    committed, and which branch of the repository you’re currently working on.</cmd>
+            </step>
+            <step>
+                <cmd>Use <b><codeph>git add </codeph></b> command to bring new files to Git’s
+                    attention. After you add files, they’re included in Git’s “snapshots” of the
+                    repository.</cmd>
+            </step>
+            <step>
+                <cmd>Use <b><codeph>git commit </codeph></b>after you make any sort of change, to
+                    take a “snapshot” of the repository.</cmd>
+                <info><p> Usually it goes </p><codeph>git commit -m “Message here.”</codeph> The
+                        <codeph>-m</codeph> indicates that the following section of the command
+                    should be read as a message.</info>
+            </step>
+            <step>
+                <cmd>Use <b><codeph>git push</codeph></b> command to push the changes you made on
+                    your local computer to GitHub.</cmd>
+            </step>
+        </steps>
+        <result id="result_o34_cfq_cpb">Your file is updated in your GitHub repository.</result>
+    </taskbody>
+</task>

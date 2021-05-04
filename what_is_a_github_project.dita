@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_a_github_project">
+    <title>What is a GitHub project?</title>
+    <shortdesc>A GitHub project is called a <b>repository</b>.</shortdesc>
+    <conbody>
+        <p>A repository is a directory or storage space where your projects can live. Sometimes
+            GitHub users shorten this to “repo.” It can be local to a folder on your computer, or it
+            can be a storage space on GitHub. You can keep code files, text files, image files or
+            any other files inside a repository.</p>
+    </conbody>
+</concept>

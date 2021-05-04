@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="git_assignment">
+    <title>Git Assignment</title>
+    <body>
+        <p>Using DITA XML, write documentation about uploading files onto a GitHub repository.Use
+            dedicated topic types (Task, Concept, Reference) and explain:-What is GitHub-What is a
+            GitHub project-How to upload a file-How to update a file (that is already uploaded)-What
+            are the available options for managing files in GitHub repository(optional) Share your
+            work results in our closed Facebook group. In case of questions or once ready send me a
+            mail at jordan.stanchev@jpdocu.com</p>
+    </body>
+</topic>

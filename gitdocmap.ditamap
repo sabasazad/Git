@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>GitDocMap</title>
+    <topicref href="git_assignment.dita"/>
+    <topicref href="what_is_github.dita"/>
+    <topicref href="what_is_a_github_project.dita"/>
+    <topicref href="how_to_upload_a_file.dita"/>
+    <topicref href="how_to_update_a_file.dita"/>
+    <topicref href="what_are_the_available_options_for_managing_files_in_github_repository.dita"/>
+</map>
